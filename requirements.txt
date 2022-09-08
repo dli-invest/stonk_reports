@@ -1,0 +1,5 @@
+icecream
+requests
+selenium
+cad_tickers
+tqdm
