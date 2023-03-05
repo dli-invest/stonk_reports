@@ -3,3 +3,5 @@ requests
 selenium
 cad_tickers
 tqdm
+openbb
+papermill

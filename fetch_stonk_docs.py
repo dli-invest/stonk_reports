@@ -151,9 +151,9 @@ def get_pdf_from_url(
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--stock', help='Target stock name must be for webmoney', default="PKK")
+    parser.add_argument('--stock', help='Target stock name must be for webmoney', default="BRAG")
     parser.add_argument('--start_date', help='Start date for filings', default="2019-09-03")
-    parser.add_argument('--end_date', help='End date for filings', default="2022-09-05")
+    parser.add_argument('--end_date', help='End date for filings', default="2023-02-20")
     args = parser.parse_args()
     ic("Running script with args: {}".format(args))
     get_stonk_data(args.stock, args.start_date, args.end_date)

@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 conscrap
+cookies_*.json
+cookies.json
